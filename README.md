@@ -1,6 +1,6 @@
 # 🏛️ Sun Tzu_Easy_Life: The Universal Strategic Operating System
 
-![Banner](/Desktop/MyGitProjects/Sun-Tzu-Easy-Life/assets/free_dom.png)
+![Banner](./assets/free_dom.png)
 
 
 
