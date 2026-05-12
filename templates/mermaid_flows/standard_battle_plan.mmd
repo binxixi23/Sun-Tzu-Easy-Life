@@ -1,0 +1,13 @@
+graph TD
+    Start((Current Conflict)) --> Recon[Scout Agent: Terrain Analysis]
+    Recon --> |Identify Weak Point| Strategy{Strategist: Choose Chapter}
+    
+    Strategy -->|Ch. 3| Strategic_Attack[Win without Fighting]
+    Strategy -->|Ch. 6| Flow_Like_Water[Avoid Strength, Strike Weakness]
+    Strategy -->|Ch. 11| Death_Ground[Total Commitment/Deadline]
+
+    Strategic_Attack --> Victory((Easy Life Outcome))
+    Flow_Like_Water --> Victory
+    Death_Ground --> Victory
+
+    style Victory fill:#00ff00,stroke:#333,stroke-width:4px

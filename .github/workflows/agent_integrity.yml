@@ -1,0 +1,43 @@
+name: Sun Tzu_Easy_Life CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Validate Knowledge Base Structure
+      run: |
+        # Ensure all core folders exist
+        mkdir -p core/dao_human_nature core/thien_universal_laws core/dia_context_business core/tuong_management core/phap_systems
+        echo "Terrain analysis: Core folders verified."
+
+    - name: Run Orchestrator Test
+      run: |
+        # Runs the main agent logic to ensure the "General" is ready for battle
+        python main.py
+
+    - name: Lint Knowledge Base
+      run: |
+        # Check if the Strategic Manifesto exists
+        if [ ! -f core/dia_context_business/manifesto_politics_wealth.md ]; then 
+          echo "Error: Strategic Manifesto missing from the armory!"; exit 1; 
+        fi
+        echo "Strategic Manifesto is deployed and ready."

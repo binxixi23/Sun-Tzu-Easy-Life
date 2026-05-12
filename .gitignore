@@ -1,0 +1,13 @@
+# API Keys and Secrets
+.env
+
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Data and Logs
+data/battle_history.json
+deployment.log

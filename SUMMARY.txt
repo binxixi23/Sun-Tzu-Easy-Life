@@ -1,0 +1,41 @@
+===========================================================================
+    PROJECT: SUN TZU_EASY_LIFE (Digital Strategic Academy)
+    MISSION: To Simplify Modern Complexity through Ancient Positioning
+===========================================================================
+
+[ EXECUTIVE SUMMARY ]
+The Sun Tzu_Easy_Life framework is a Multi-Agent AI system designed to act 
+as a "Digital Sovereign." It removes the friction of daily life by applying 
+the 13 Chapters of Binh Pháp Tôn Tử to 25+ human domains, ranging from 
+Office Politics and Wealth Management to Health and Family Ethics.
+
+[ THE ARMORY (The Data) ]
+- 13-Chapter Tactical Library: A full translation of military strategy 
+  into modern "Life Hacks."
+- 1,000+ Modern Scenarios: A massive case-study database for the agents 
+  to cross-reference real-world problems.
+- Sovereign Manifestos: Deep-dive strategic guides on the fusion of 
+  Politics, Wealth, and Human Nature.
+
+[ THE GENERAL STAFF (The Agents) ]
+- THE SCOUT (Intelligence): Detects the 'Terrain' and 'Climate' of your problems.
+- THE STRATEGIST (Core): Maps your situation to the 13 Pillars of Strategy.
+- THE VISUALIZER (Signal): Draws Mermaid.js battle maps to reveal the path.
+- THE BANTER SAGE (Spirit): Maintains your morale with witty parables and 
+  philosophical humor.
+
+[ TECHNICAL ECOSYSTEM ]
+- Automated DevOps: GitHub Workflows (.github/) ensure the strategy is 
+  never broken.
+- Modular Architecture: Clean folder structures (core/, agents/, data/) 
+  allow for infinite knowledge expansion.
+- Direct-to-Markdown Reporting: Generates professional "Victory Reports" 
+  in seconds.
+
+[ FINAL DOCTRINE ]
+"In the Easy Life Academy, we do not work harder; we position better. 
+We do not fight; we flow. We do not struggle; we win."
+
+===========================================================================
+                  VICTORY THROUGH POSITIONING
+===========================================================================
